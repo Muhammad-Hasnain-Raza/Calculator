@@ -47,10 +47,10 @@ function getResult(){
                 result = 'zero';
             }
         } else {
-            result = 'Error';
+            result = 'error';
         }
     } else {
-        result = 'Error';
+        result = 'error';
     }
 
     display.value = result;
